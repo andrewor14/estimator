@@ -1,2 +1,5 @@
 /.bazelrc.user
 /bazel-*
+__pycache__/
+.idea
+

@@ -450,6 +450,7 @@ def train_and_evaluate(estimator, train_spec, eval_spec):
   Raises:
     ValueError: if environment variable `TF_CONFIG` is incorrectly set.
   """
+
   _assert_eval_spec(eval_spec)  # fail fast if eval_spec is invalid.
 
   executor = _TrainingExecutor(
